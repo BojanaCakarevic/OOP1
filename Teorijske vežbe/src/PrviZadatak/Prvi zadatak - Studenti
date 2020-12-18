@@ -1,0 +1,29 @@
+Jedan student PMFa je predstavljen klasom Student koja 
+ima sledeće atribute
+id (broj indeksa) koji se automatski određuje – 
+odgovara rednom broju kreiranog objekta klase Student
+ime
+prosek
+departman na kome studira
+Klasa Student definiše get metode za sve gornje atribute i 
+toString() metod
+Student se nagrađuje ukoliko mu je prosek jednak ili veći od 9.5
+
+Klasom Generacija je predstavljena jedna generacija studenata. 
+Generacija se inicijalizuje podacima iz tekstualnog fajla koji je 
+organizovan na sledeći način
+Prva linija: broj studenata u generaciji
+Svaka sledeća linija opisuje jednog studenta. Linija sadrži 
+redom ime studenta, prosek i ime departmana razdvojene “,”
+
+
+Klasa Generacija takođe definiše sledeće metode
+void nagrade(String departman)
+ispisuje sve studente sa nekog departmana koji se nagrađuju i 
+koliko ima nagrađenih studenata
+Student najboljiNaDepartmanu(String departman)
+vraća najboljeg studenta na nekom departmanu
+
+Napraviti generaciju studenata na osnovu proizvoljnog fajla 
+(za koga pretpostavljamo da je pravilno formatiran) i ispisati 
+sve nagrađene studente, kao i najboljeg studenta na DMI

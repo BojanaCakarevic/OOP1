@@ -1,0 +1,33 @@
+Klasom Radnik se opisuje jedan radnik radne organizacije.
+Klasa kao atribute sadrži
+Identifikator radnika (String)
+Radni staž u godinama (int)
+Platu (double)
+Referencu na nadređenog radnika
+Klasa takođe definiše konstruktor koji postavlja 
+vrednosti atributa klase, get metode i toString() metod 
+
+Klasa Direktor nasleđuje klasu Radnik.
+Direktor je radnik koji nema nadređenih.
+Klasa Direktor se ne može dalje nasleđivati.
+Klasa redefiniše toString() metod kako bi se jasno istaklo 
+da je instanca te klase direktor.
+
+Klasa RadnaOrganizacija kao atribut sadrži niz radnika.
+Radna organizacija se učitava iz fajla koji je organizovan 
+na sledeći način
+Prva linija – broj radnika
+U svakoj sledećoj liniji informacije o jednom radniku i to
+ID, radni staž, plata i id nadređenog (razdvojeni zarezima) – 
+za obične radnike
+ID, radni staž, plata (razdvojeni zarezima) – za direktora
+Za nekog radnika informacije o nadređenom radniku su 
+uvek date pre informacija o samom tom radniku u ulaznom fajlu.
+
+Klasa RadnaOrganizacija takođe definiše dve metode
+void stampajSveNadređene(String id) – koja štampa sve nadređene radnike za 
+nekog radnika
+void plataNadredjenogManja() – koja štampa sve radnike 
+koji imaju veću platu od njihovog direktnog nadređenog 
+
+

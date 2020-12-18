@@ -1,0 +1,6 @@
+
+U glavnom programu je potrebno napraviti instancu klase Tim, 
+inicijalizovati je nizom kosarkasa I
+ispisati rezultate izvrsavanja metoda toString() I
+ najkorisnijiIgracNaTerenu().
+Sami napravite tim od pet igraca (2 beka, 2 krila I 1 centar).

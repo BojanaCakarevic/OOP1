@@ -1,0 +1,34 @@
+Definisati klasu Objava, koja predstavlja objavu na nekom forumu. 
+Ona sadrži polja:
+● Naslov (string)
+● Tema (string)
+● Broj komentara (int)
+Takođe sadrži get/set metode za sva polja. Validne vrednosti za polje
+ Tema jesu
+“sport”, “hobiji”, “strani jezici” i “razno”. Ukoliko prosleđena vrednost 
+nije validna,
+potrebno je temu postaviti na “razno”. Takođe, potrebno je definisati i 
+toString metod,
+koji ispisuje informacije o Objavi na sledeći način: “Naslov [Tema] - 
+broj komentara”.
+Zatim, definisati klasu Forum. Forum sadrži niz Objava. Podaci o 
+Objavama čitaju se iz
+fajla “objave.txt”, gde se u prvoj liniji nalazi broj objava, a zatim u 
+svaka sledeća linija
+izgleda ovako:
+naslov, tema, broj_komentara
+Klasa Forum definiše sledeće metode:
+● Objava najpopularnijaObjava(String tema) - pronalazi objavu sa 
+najvise
+komentara iz odabrane teme. Ukoliko prosleđena tema nije među 
+dozvoljenim
+temama ili objava u toj kategoriji ne postoji, ispisati odgovarajuću 
+poruku i vratiti
+null.
+● void statistika() - prolazi kroz listu objava i za svaku od tema 
+ispiše broj objava u
+toj temi, kao i zbir komentara. 
+Primer “Sport [objave: 4] [komentari: 155]”
+U main metodu klase Glavna potrebno je kreirati jedan 
+Forum i pozvati njegove metode.
+

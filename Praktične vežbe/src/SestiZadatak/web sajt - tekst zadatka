@@ -1,0 +1,60 @@
+Intefejs URLAdresirano predstavlja resurs na 
+internetu koji ima jedinstvenu URL adresu i 
+sadrzi metod String adresa().
+ 
+
+Apstraktna klasa WebSajt implementira interfejs 
+URLAdresirano i implementira odgovarajuci metod 
+tako sto vraca vrednost svog polja u kom cuva adresu. 
+Klasa osim toga definise dva apstraktna metoda:
+
+double cenaReklameNaSajtu() - vraca cenu koju vlasnici 
+sajta mogu dobiti ukoliko neko zeli da postavi reklamu na 
+njihov sajt na period od godinu dana.
+boolean odobrenoKomentarisanje() - vraca true ukoliko 
+unutar sajta postoji opcija komentarisanja; u suprotnom 
+vraca false.
+Pored navedenih metoda klasa treba da sadrzi i konstruktor 
+koji inicijalizuje adresu, kao i toString metod koji pored internet 
+adrese sajta treba da iskoristi i cenu reklame na sajtu, kao i 
+informaciju o tome da li komentarisanje odobreno ili nije.
+ 
+
+Neapstraktna klasa Blog nasledjuje klasu WebSajt. Svaki blog
+ sadrzi niz postova, a postovi su opisani statickom ugnjezdenom 
+ klasom Post.
+ 
+Staticka ugnjezdena klasa Post sadrzi sadrzaj posta (String), 
+broj lajkova (int) i broj komentara (int) na postu. Klasa  sadrzi 
+konstruktor koji inicijalizuje sva polja klase, kao i sledeci metod:
+
+int popularnostPosta() - vraca broj koji govori o popularnosti 
+posta. Svaki lajk vredi 5, dok svaki komentar vredi 12. Zbir 
+vrednosti svih lajkova i komentara predstavlja popularnost 
+posta i ujedno je i rezultat izvrsavanja metoda.
+Konstruktor klase Blog prima internet adresu bloga, kao i niz
+ postova od kojih se blog sadrzi. Na blogu je	isanje
+  odobreno ukoliko bar jedan post ima bar jedan komentar, a 
+  godisnja cena reklame se dobija tako sto se zbir popularnosti 
+  svih postova pomnozi brojem 1,5.
+
+
+Klasa OmiljeniSajtovi cuva niz omiljenih sajtova (favourites). 
+Niz sajtova treba da se ucita u konstruktoru klase, a podaci  o 
+sajtovima se cuvaju u fajlu, i organizovani su na sledeci nacin:
+
+U prvoj liniji fajla je broj sajtova.
+Svaki blog je opisan sa k + 1 linijom, pri cemu je 
+prva linija formata: adresa sajta?, broj postova na blogu (k),  
+svaka sledeca linija opisuje po jedan post na sledeci nacin: 
+sadrzaj posta, broj lajkova, broj komentara?
+Klasa OmiljeniSajtovi treba da sadrzi i metod:
+
+WebSajt gdeDaPostavimReklamu(double raspoloziviNovac) - 
+vraca sajt cija je cena postavljanja  reklame najveca moguca 
+koja se uklapa u raspolozivi fond.
+ 
+U glavnom programu je potrebno napraviti instancu klase 
+OmiljeniSajtovi. U while petlji je potrebno pozivati i ispisivati  
+rezultat izvrsavanja metoda gdeDaPostavimReklamu pocevsi 
+od neke proizvoljne sume, pa sve dok ima novca.

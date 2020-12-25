@@ -1,7 +1,0 @@
-pregledaj res\\likovno.txt
-roditeljski
-pregledaj res\\matematika.txt
-roditeljski
-pregledaj res\\srpski.txt
-pregledaj res\\engleski.txt
-roditeljski

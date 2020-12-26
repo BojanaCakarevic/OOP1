@@ -1,0 +1,8 @@
+7
+mika, 8, 20
+zika, 7, 21
+pera, 5, 18
+ana, 9, 23
+zivana, 10, 15
+mina, 0, 10
+stojan, 5, 25

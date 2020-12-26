@@ -1,0 +1,46 @@
+Putnički prtljag je predstavljen apstraktnom klasom 
+Prtljag koja kao atribut ima težinu prtljaga.
+
+Klasa definiše konstruktor koji inicijalizuje sve 
+atribute klase, get metode za sve atribute i apstraktnu metodu
+      
+koja kao rezultat vraća true ukoliko je prtljag zagubljen 
+tokom transporta
+
+Neapstraktne klase RucniPrtljag i PredatiPrtljag 
+nasleđuju klasu Prtljag.
+
+Rucni prtljag se ne može zagubiti, dok je verovatnoća 
+da se zagubi predati prtljag 0.1
+
+Klasom Putnik je predstavljen jedan putnik na nekom 
+avionskom letu. Svaki putnik ima ime, ručni prtljag i predati prtljag.
+
+Klasom Let je predstavljen jedan avionski let. Kao 
+atribute ova klasa ima naziv leta (String), nosivost aviona i 
+niz putnika na letu. 
+
+Ukoliko je ukupna težina putničkog prtljaga veća od 
+nosivosti aviona konstruktor generiše izuetak VišakTereta
+
+Izuetak VišakTereta u konstruktoru prima naziv leta i formira 
+poruku o grešci koja se prosleđuje konstruktoru nadklase.
+
+Klasa Let takođe definiše metod int izgubljenPrtljag() koji kao 
+rezultat vraća ukupnu težinu zagubljenog predatog prtljaga.
+
+Klasom SpisakPutnika je predstavljen neki spisak (niz) putnika. 
+
+Informacije o putnicima se čitaju iz ulaznog fajla koji je formatiran 
+na sledeći način
+Prva linija fajla – broj putnika
+Svaka sledeća linija nosi informacije o jednom putniku i to ime, 
+težinu ručnog prtljaga i težinu predatog prtljaga
+
+Ne pretpostavljamo da je ulazni fajl dobro formatiran i obrađujemo 
+sve greške u radu sa ulaznim fajlom. 
+
+Klasa SimulacijaLeta definiše main metod u kome se kreira spisak 
+putnika iz nekog fajla, te se potom kreira let proizvoljne nosivosti 
+koji treba da preveze putnike sa spiska. Na kraju metoda se štampa 
+ukupna težina izgubljenog prtljaga.

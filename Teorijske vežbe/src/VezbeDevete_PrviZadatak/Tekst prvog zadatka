@@ -1,0 +1,35 @@
+Interfejs RadnaOrganizacija opisuje operacije nad 
+jednom radnom organizacijom:
+
+void zaposli(String id, String ime, int plata) throws    
+      RadnaOrganizacijaException;
+
+void otpusti(String id) throws RadnaOrganizacijaException;
+
+Metode zaposli i otpusti mogu generisati ROE ukoliko je 
+došlo do neke greške prilikom zapošljavanja/otpuštanja radnika.
+
+Izuetak ROE mora čuvati informaciju o tome u kojoj od 
+operacija je došlo do greške
+
+Klasom Firma je predstavljena jedna radna organizacija 
+koja ima neki maksimalni broj zaposlenih radnika koji su 
+predstavljeni nizom.
+
+Radnik u firmi je predstavljen ugnježđenom klasom koja ima 
+sledeće atribute: id, ime, plata
+
+Napisati program koji simulira zapošljavanja i otpuštanja u nekoj firmi.
+
+Informacije o zapošljavanjima i otpuštanjima su date u 
+ulaznom tekstualnom fajlu koji je organizovan na sledeći način
+Jedna linija jedna akcija
+Akcija kojom se opisuje zapošljavanje novog radnika je u 
+formatu 
+“zaposli, <ID>, <ImeRadnika>, <PlataRadnika>
+Akcija kojom se opisuje otpuštanje novog radnika je u formatu
+   “otpusti, <ID>”
+
+Ne pretpostavljamo da je ulazni fajl ispravno formatiran, ali 
+sprovodimo sve one akcije koje su dobro formatirane
+

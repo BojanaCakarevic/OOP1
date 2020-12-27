@@ -1,0 +1,20 @@
+otpusti, 12
+zaposli, 1, Mika, 10000
+otpusti, 5
+zaposli, 2, Pera, 12000
+zaposli, 1, Zika, 10000
+zaposli, 3, Stojan, 8000
+otpusti, 1
+zaposli, 4, Milovan, 9004f
+zaposli, 4, Milovan, 9000
+zaposli, 5, Ana, 13000
+zaposli, 6, Mina, 15000
+zaposli, 7, Dara, 23000
+zaposli, 8, Sara, 12000
+Ana, voli, Milovana
+zaposli, 9, Mara, 12000, Sara
+zaposli, 9, Mara, 12000
+zaposli, 10, Ana, 5000
+zaposli, 11, Zivka, 4000
+otpusti, 3
+zaposli, 11, Zivka, 4000

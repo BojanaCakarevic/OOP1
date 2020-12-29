@@ -1,0 +1,22 @@
+Skup – kolekcija elemenata koja ne sadrži duplikate
+Operacije provere pripadnosti elementa skupu, dodavanje 
+novog elementa u skup i brisanje elementa iz skupa
+ADT-ove specificiramo interfejsima
+Greške koje se mogu pojaviti prilikom izvođenja operacija nad 
+skupom možemo modelirati izuzetcima
+
+Napraviti ADT skup koji je reprezentovan jednostruko povezanom 
+listom
+Greške modelirati izuzetcima
+Opšti izuzetak: SetException – greška u radu sa skupom
+Izvedeni izuzetci:
+AddException – greška prilikom dodavanja elementa
+RemoveException – greška prilikom brisanja elementa 
+
+Formirati skup od 20 nasumično odabranih celih brojeva koji 
+su u intervalu [0 .. 10)
+
+Potom iz skupa izbaciti 10 nasumično odabranih brojeva iz 
+
+Odštampati koliko je brojeva dodato u skup, a koliko je obrisano 
+

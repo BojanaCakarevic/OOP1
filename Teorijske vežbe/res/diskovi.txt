@@ -1,0 +1,7 @@
+Gilespi, 120, 3
+Mingus, 90, 7
+Koltrejn, 100, 4
+Majls, 60, 6
+Parker, 60, 1
+Metini, 180, 7
+Vekl, 100, 3 

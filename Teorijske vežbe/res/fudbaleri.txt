@@ -1,0 +1,21 @@
+20
+G, Stojanovic, P, 5
+G, Jovanovic, R, 2
+G, Kaludzerovic, R, 3
+O, Belodedic, P, 5.4, 2
+O, Najdoski, P, 6.7, 0
+O, Sabanadzovic, P, 6.3, 1
+O, Marovic, P, 5.2, 3
+O, Momcilovic, R, 1.3, 0
+O, Radinovic, R, 2.3, 1
+O, Vasiljevic, R, 4.0, 1
+S, Prosinecki, P, 5.12, 8
+S, Jugovic, P, 4.87, 10
+S, Mihajlovic, P, 4.5, 5
+S, Savicevic, P, 5.0, 12
+S, Ratkovic, R, 1.2, 2
+S, Stosic, R, 1.3, 1
+S, Tosic, R, 0.9, 0
+N, Pancev, P, 1.1, 6
+N, Binic, P, 1.7, 2
+N, Lukic, R, 0.2, 0

@@ -1,8 +1,4 @@
 # OOP1
 
-Vežbe:
-
-Kolokvijumi:
-
-JavaFX:
+Prirodno-matematički fakultet, Informacione tehnologije
 
